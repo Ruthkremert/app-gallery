@@ -1,0 +1,70 @@
+.card.card-cascade .view.gradient-card-header {
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.card.card-cascade h3,
+.card.card-cascade h4,
+{
+    margin-bottom: 0px;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #4285f4);
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.card.card-cascade {
+    .view {
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15), 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+        width: 100%;
+        height: 780px;
+    }
+}
+
+
+.file-field {
+    position: relative;
+}
+
+.file-field input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.file-field .file-path-wrapper {
+    overflow: hidden;
+    padding-left: 10px;
+    height: 2.5rem;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.file-field input.file-path {
+    width: 100%;
+    height: 36px;
+}
+
+.md-form {
+  margin: 0px;
+}

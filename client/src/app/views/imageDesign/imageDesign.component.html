@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-9">
+        <!--Card-->
+        <div class="card card-cascade narrower d-flex mb-5">
+
+            <!-- Card header -->
+            <div class="card-header text-center">
+                <!-- <input type='file' (change)="onSelectFile($event)"> -->
+
+                <form class="md-form" action="#">
+                    <div class="file-field">
+                        <div class="btn btn-primary btn-sm float-left waves-effect waves-light" (change)="onSelectFile($event)">
+                            <span>Choose files</span>
+                            <input type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate valid" type="text" placeholder="Upload one or more files" value="{{urlName}}">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+                <img [src]="url" class="img-fluid" alt="">
+                <!-- <a href="#">
+                    <div class="mask"></div>
+                </a> -->
+            </div>
+
+        </div>
+        <!--/.Card-->
+    </div>
+</div>
